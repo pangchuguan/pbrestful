@@ -54,13 +54,12 @@ Long 		il_count
 string 	is_value
 JsonParser inv_JsonParser
 eon_appeon_resize  ieon_resize
-
+HttpClient 	is_test
 //JsonGenerator I_bb
 
 //JsonParser I_bbc
 
 end variables
-
 forward prototypes
 public subroutine of_parsejson (jsonparser anv_jsonparser, long alp_handle, string as_key)
 public subroutine of_parsejson2 (ref jsonparser anv_jsonparser, long alp_handle, string as_key)
