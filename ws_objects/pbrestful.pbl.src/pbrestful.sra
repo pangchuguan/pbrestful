@@ -22,6 +22,7 @@ global pbrestful pbrestful
 type variables
 String is_test
 ////
+////
 end variables
 on pbrestful.create
 appname="pbrestful"
