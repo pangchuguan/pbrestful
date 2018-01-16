@@ -19,6 +19,9 @@ string appname = "pbrestful"
 end type
 global pbrestful pbrestful
 
+type variables
+String is_test
+end variables
 on pbrestful.create
 appname="pbrestful"
 message=create message
