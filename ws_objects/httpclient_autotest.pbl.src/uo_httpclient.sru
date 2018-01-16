@@ -16,8 +16,8 @@ type variables
 String is_Trigger = "HttpClient Trigger Event Failed"
 String is_Post = "HttpClient Post Event Failed"
 Long 	il_count = 0
+//
 end variables
-
 event ue_trigger();is_Trigger = "HttpClient Trigger Event Success " + String ( il_count )
 end event
 
