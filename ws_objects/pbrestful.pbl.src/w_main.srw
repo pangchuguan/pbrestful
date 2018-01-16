@@ -60,9 +60,8 @@ end type
 global w_main w_main
 
 type variables
-
+string is_test
 end variables
-
 on w_main.create
 this.cb_12=create cb_12
 this.cb_11=create cb_11
